@@ -1,0 +1,40 @@
+#recommended-div {
+	height: 50%;
+	width: 85.5%;
+	margin-top: 3%;
+	/* position: absolute; */
+	/* first absolute here This is used to starck the next div or container below*/
+	margin-left: 103px;
+	background-color: #fffcf8; /* or color white */
+	overflow: hidden;
+	border-radius: 7px;
+}
+
+h4 {
+	margin: 19px;
+}
+
+.reco {
+	float: left;
+	width: 32%;
+	padding: 10px;
+
+	background-color: #aaa;
+	margin: 0px 15px 0px 15px;
+	/* margin-left: 22px; */
+
+	height: 260px; /* Should be removed. Only for demonstration */
+	border-radius: 7px;
+}
+
+#home-box-one-two {
+	height: 50%;
+	width: 85.5%;
+	margin-top: 3%;
+	/* 5th here This is used to starck the next div or container below*/
+	margin-left: 103px;
+	background-color: #fffcf8; /* or color white */
+	overflow: hidden;
+	border-radius: 7px;
+	/* background-color: red; */
+}
