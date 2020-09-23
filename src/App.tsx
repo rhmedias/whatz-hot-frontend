@@ -7,6 +7,9 @@ import Home from './pages/Home';
 import MainLayout from './components/layouts/MainLayout';
 import './assets/css/styles.css'
 import './assets/css/featured.css'
+import Login from './pages/Login';
+import UserLayout from './components/layouts/UserLayout';
+import Register from './pages/Register';
 
 const App = () => {
   return (
@@ -17,6 +20,16 @@ const App = () => {
 								<Home/>
 							</MainLayout>
 						</Route>
+            <Route path="/login">
+							<UserLayout>
+								<Login/>
+							</UserLayout>
+						</Route>
+            <Route path="/register">
+							<UserLayout>
+								<Register/>
+							</UserLayout>
+						</Route>    
         <Route path='*' component={Error404} />
       </Switch>
     </Router>

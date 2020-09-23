@@ -62,24 +62,24 @@ body {
 /* herobox starts here */
 .herobox {
     background-color: #F0E7D9;
-    height: 400px;
-    width: 85.5%;
-    margin-left: 103px;
+    height: 500px;
+    /* width: 85.5%; */
+    /* margin-left: 103px; */
     border-radius: 10px;
     margin-top: 30px;
 }
 
 .hero-text {
     font-size: 50px;
-    padding-left: 40px;
-    padding-top: 40px;
+    padding-left: 100px;
+    padding-top: 100px;
     font-weight: bold;
     letter-spacing: 2px;
 }
 
 .hero-text- {
     font-size: 50px;
-    padding-left: 40px;
+    padding-left: 100px;
     letter-spacing: 2px;
 }
 
@@ -91,7 +91,7 @@ body {
 .searchbox .search-container {
     float: left;
     margin-top: 30px;
-    padding-left: 40px;
+    padding-left: 100px;
 }
 
 .searchbox input[type=text] {
@@ -101,7 +101,7 @@ body {
 	border: none;
 	border-radius: 30px;
 	background: #ffffff;
-	width: 452px;
+	width: 552px;
 	height: 50px;
 	
 	background-image: url('./../../assets/images/search.png');
@@ -154,7 +154,7 @@ body {
 }
 
 .hero-girl img{
-    width: 75%;
+    width: 80%;
   height: 100%;
 }
 
@@ -284,3 +284,34 @@ body {
 	margin-inline-start: 55px;
 }
 /* Properties for icons in categrory ENDS here */
+
+/* footer starts here */
+.footer_main{
+	background-color:#1F1F22;
+	color: #fffcf8;
+}
+.footer_ {
+	margin-left: 103px;
+	margin-top: 40%;
+}
+
+.footer ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.footer a{
+	color: inherit;
+}
+
+.column {
+	float: left;
+	padding: 5px;
+	width: 20%;
+  }
+  
+  /* Clear floats after image containers */
+  .row{
+	margin-left: 0px;
+  }
+/* footer ends here */
