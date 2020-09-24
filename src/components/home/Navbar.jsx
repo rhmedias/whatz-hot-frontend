@@ -1,14 +1,17 @@
 import React, { Component } from 'react'
+import Login from './../../pages/user/Login'
+import { Link } from "react-router-dom";
+
 
 
 class Navbar extends Component {
-	constructor(props) {
-		super(props);
-		this.menuRef = React.createRef();
-	}
-	toggleMenu = () => {
-		this.menuRef.current.classList.toggle('menu-show');
-	};
+	// constructor(props) {
+	// 	super(props);
+	// 	this.menuRef = React.createRef();
+	// }
+	// toggleMenu = () => {
+	// 	this.menuRef.current.classList.toggle('menu-show');
+	// };
 	render() {
 		return (
 			<div>
@@ -50,10 +53,11 @@ class Navbar extends Component {
 									
 
 									<li>
-										<a href="#login">Login</a>
+									<Link to="/login">Login</Link>
+										{/* <a href="/Login">Login</a> */}
 									</li>
 									<li>
-										<a href="#email">help@whatz-hot.com</a>
+									<Link to="/signup">Sign up</Link>
 									</li>
 								</div>
 							</ul>
