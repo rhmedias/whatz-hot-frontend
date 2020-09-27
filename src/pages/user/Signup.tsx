@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { FormGroup, InputGroup, Button, Alignment } from '@blueprintjs/core';
 import { Link } from 'react-router-dom';
 import UserauthLogo from '../../container/UserauthLogo';
-import UserauthHeader from '../../container/UserauthHeader';
 import StyleFirebaseAuthUi from '../../container/StyledFirebaseAuthUi';
 import { auth } from '../../utils/Uiconfig';
 import {
@@ -28,6 +27,7 @@ import { connect } from 'react-redux';
 import SpinnerUi from '../../container/Spinnerui';
 import { RouteComponentProps } from 'react-router';
 import { setUiLoading } from '../../redux/actions/uiActions';
+import Navbar from '../../components/home/Navbar';
 
 interface Istate {
   fullName: string;
@@ -129,7 +129,7 @@ class Signup extends Component<props, Istate> {
           <Wrapper>
             <Row>
               <Col>
-                <UserauthHeader />
+                <Navbar/>
               </Col>
             </Row>
             <Row>
@@ -238,3 +238,4 @@ const mapStateToProps = (state: AppState, ownprops: props): LinkStateProp => ({
 });
 
 export default connect(mapStateToProps)(Signup);
+

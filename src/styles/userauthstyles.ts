@@ -1,9 +1,11 @@
 import styled from 'styled-components';
 
+
 export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background: #EAF4F8;
 `;
 
 export const Row = styled.div`
@@ -31,7 +33,8 @@ export const H2 = styled.h2`
   text-align: center;
   font-size: 22px;
   font-weight: bold;
-  color: #3dcc91;
+  font-family: Sofia Pro;
+  color: #3c3a3a;
   text-transform: capitalize;
   padding-bottom: 10px;
 `;
@@ -40,26 +43,30 @@ export const H6 = styled.h6`
   text-align: center;
   font-style: bold;
   font-size: 12px;
+  font-family: Sofia Pro;
 `;
 export const SubHeading = styled.p`
   text-align: center;
   text-transform: capitalize;
-  font-weight: bold;
+  // font-weight: bold;
   margin-bottom: 12px;
+  font-family: Sofia Pro;
 `;
 export const LegalCopy = styled.p`
   text-align: center;
   margin-top: 10px;
   color: red;
   text-transform: capitalize;
-  color: #333;
+  color: #3c3a3a;
   font-size: 12px;
   line-height: 1.5em;
+  font-family: Sofia Pro;
 `;
 export const H3 = styled.h4`
   text-align: right;
   font-size: 10px;
   padding-bottom: 10px;
+  font-family: Sofia Pro;
 `;
 export const ButtonWrapper = styled.div`
   display: flex;

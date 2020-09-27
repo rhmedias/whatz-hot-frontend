@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import Login from './../../pages/user/Login'
 import { Link } from "react-router-dom";
 
 

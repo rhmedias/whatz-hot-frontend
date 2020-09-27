@@ -9,8 +9,6 @@ body {
 	background: var(--main-bg);
 	font-size: 14px;
 	font-family: Sofia Pro;
-	/* color: var(--body-text); */
-	/* font-weight: 300; */
 }
 
 /* first-top nav starts here */
@@ -23,11 +21,10 @@ body {
 	background-color: #1f1f22;
 	padding-left: 511px;
 	height: 75px;
-	/* font-size: 14px; */
 }
 
 .logo_category li{
-    margin-left: -300px;
+    margin-left: -200px;
 }
 
 .top-nav li {
@@ -63,7 +60,6 @@ body {
 .herobox {
     background-color: #F0E7D9;
     height: 500px;
-    /* width: 85.5%; */
     /* margin-left: 103px; */
     border-radius: 10px;
     margin-top: 30px;
@@ -149,8 +145,8 @@ body {
 
 .hero-girl {
     float: right;
-    margin-right: -120px;
-    margin-top: -160px;
+    margin-right: -90px;
+    margin-top: -140px;
 }
 
 .hero-girl img{

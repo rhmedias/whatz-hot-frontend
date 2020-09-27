@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { FormGroup, InputGroup, Button, Alignment } from '@blueprintjs/core';
 import { Link } from 'react-router-dom';
 import UserauthLogo from '../../container/UserauthLogo';
-import UserauthHeader from '../../container/UserauthHeader';
 import StyleFirebaseAuthUi from '../../container/StyledFirebaseAuthUi';
 import { auth } from '../../utils/Uiconfig';
 import {
@@ -33,6 +32,7 @@ import { setLoadUser } from '../../redux/actions/userAction';
 import { bindActionCreators } from 'redux';
 import { ThunkDispatch } from 'redux-thunk';
 import { AppActions } from '../../redux/types/appAction';
+import Navbar from '../../components/home/Navbar';
 
 interface Istate {
   email: string;
@@ -144,7 +144,7 @@ class Login extends Component<props, Istate> {
           <Wrapper>
             <Row>
               <Col>
-                <UserauthHeader />
+                <Navbar/>
               </Col>
             </Row>
             <Row>
@@ -152,7 +152,7 @@ class Login extends Component<props, Istate> {
                 <FormWrapper>
                   <Form onSubmit={this.handleSubmit}>
                     <div>
-                      <H2>sign in to whatz hot</H2>
+                      <H2>sign in to whatz-hot</H2>
                       <SubHeading>
                         new to whatz hot? <Link to='/signup'>sign up</Link>
                       </SubHeading>
